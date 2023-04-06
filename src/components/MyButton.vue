@@ -1,8 +1,8 @@
 <template>
-      <v-btn :color="color" :size="size" class="no-text-transform">
-        <slot></slot>
-        <slot name="append"></slot>
-      </v-btn>
+  <v-btn :color="color" :size="size" class="no-text-transform">
+    <slot></slot>
+    <slot name="append"></slot>
+  </v-btn>
 </template>
 
 <script setup lang="ts">

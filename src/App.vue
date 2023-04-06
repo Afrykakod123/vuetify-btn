@@ -4,10 +4,10 @@
       <v-container class="fill-height">
         <v-responsive class="d-flex align-center text-center fill-height">
 
-          <MyButton color="primary" size="small">
+          <myButton color="primary" size="small">
             Nieaktywny przycisk
             <template #append> dodatkowa treść</template>
-          </MyButton>
+          </myButton>
 
         </v-responsive>
       </v-container>
@@ -16,5 +16,5 @@
 </template>
 
 <script setup lang="ts">
-import MyButton from '@/components/MyButton.vue'
+  import myButton from '@/components/MyButton.vue'
 </script>
